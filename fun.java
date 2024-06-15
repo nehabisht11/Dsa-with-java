@@ -1,24 +1,23 @@
-import java.util.Scanner;
-
-public class functionnss {
+import java.util.*;
+public class fun {
     public static void printhelloworrld(){
         System.out.println("hello");
         System.out.println("hello");
         System.out.println("hello");
     }
-        public static void calculateSum( int a,int b){
+        public static int calculateSum( int a,int b){//parameters or foraml parameters
             int sum = a + b;
-            System.out.println(sum);
-
+            return(sum);
+           
         }
     
         public static void main(String[]args){
             Scanner sc= new Scanner (System.in);
             int a = sc.nextInt();
             int b = sc.nextInt();
-             calculateSum(a,b);         
+            int sum = calculateSum(a,b);  //arguments actual pareameters      
+             System.out.println(sum);
+ 
         }
 
     }
-    
-
