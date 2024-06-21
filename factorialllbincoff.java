@@ -15,8 +15,7 @@ public class factorialllbincoff {
             return bincoff;
         }
     public static void main(String[]args){
-    int fac =factorial(4);
-    System.out.println(fac);
+    System.out.println(factorial(4));
     int bincof= bincoff(5,2);
     System.out.println(bincof);
     }
