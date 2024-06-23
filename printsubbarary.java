@@ -7,6 +7,7 @@ public class printsubbarary {
                 int end = j;
                 for( int k=start ; k<=end; k++){
                     System.out.printf("[ %d ]",number[k]) ;             
+                    
                   }
                   ts++;
                   System.out.println();
