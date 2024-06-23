@@ -6,7 +6,7 @@ public class arraaybyref {
     }
      public static void main(String args[]){
         int marks[ ]= {34,87,50};
-        update (marks);
+        update(marks);
         for(int i =0;i<marks.length;i++){
         System.out.println(marks[i]);
 
@@ -14,3 +14,4 @@ public class arraaybyref {
     
     }
 }
+
