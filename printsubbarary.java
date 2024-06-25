@@ -5,8 +5,8 @@ public class printsubbarary {
             int start = i;
              for(int j= 0 ; j<number.length;j++){
                 int end = j;
-                for( int k=0 ; k<number.length; k++){
-                    System.out.println(number[k]) ;             
+                for( int k=start; k<=end; k++){
+                    System.out.printf("[%d]", number[k]) ;             
                   }
                   ts++;
                   System.out.println();
