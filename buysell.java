@@ -1,6 +1,6 @@
 public class buysell {
     public static int maxprofit(int prices[]){
-        int buyprice = Integer.MAX_VALUE;
+        int buyprice = Integer.MAX_VALUE;//plus infinity
         int maxprofit =0;
         for( int i =0;i<prices.length;i++){
             if(buyprice <prices[i]){
