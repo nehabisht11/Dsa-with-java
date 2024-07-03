@@ -11,6 +11,12 @@ public class selectisort {
          arr[minpos] = arr [i];
          arr[i] = temp;
         }  
+
+    }
+    public static void printArr( int arr[]){
+        for(int i = 0;i<arr.length;i++){
+            System.out.println(arr[i] + " ");
+        }
     }
     public static void  main(String args[]){
     int arr[] = {5,8,4,9,2,1};
